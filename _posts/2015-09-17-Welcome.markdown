@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2015-09-17 17:24:03
+categories: 
+---
+Hi, I'm Marco Ferraioli A.K.A. ParanoiaSystem and this is my site & blog.
+
+In this blog I will share my experiences, my projects and my knowledge.
+The topics will cover the world of IT and in particular the Open Source world.
+
+P.S.: I am sorry for my horrible english, I'll improve my English.
