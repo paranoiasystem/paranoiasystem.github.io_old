@@ -18,3 +18,11 @@ WebApp Boilerplate is a simple boilerpalte for make fast a web app, it is compos
 +	A simple Bash or Batch script for help you to more fast write code
 
 You can find this on [GitHub](http://github.com) or on your [site](http://marcoferraioli.com/WebApp-Boilerplate/).
+
+----
+
+TelegramBot-PHP-library
+
+TelegramBot is an unofficial library in PHP for use the Telegram APIs for bot.
+
+It's very helpful for write a bot. All API of Telegram Bot are available.
