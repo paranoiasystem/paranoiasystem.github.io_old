@@ -75,6 +75,17 @@ li {
 }
 
 
+/**
+ * Comma for category
+ */
+.comma:empty {
+  display: none;
+}
+
+.comma:not(:first-child):before {
+  content: ", ";
+}
+
 
 /**
  * Headings
