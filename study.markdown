@@ -2,6 +2,8 @@
 layout: page
 title: Materiale di Studio (ITA)
 permalink: /materialstudy/
+desc: "Appunti, Esercizi ed esami utili per il corso di studi di Informatica della facoltà di Scienze, UNISA, Università degli Studi di Salerno"
+keywords: "Marco, Ferraioli, TSW, PHP, TPA, UNISA, Università, Salerno, PD, Blundo, Scarano, Cattaneo, RMI, Java, Esami, Esame, Orale, Prove, Svolte"
 ---
 
 In italiano

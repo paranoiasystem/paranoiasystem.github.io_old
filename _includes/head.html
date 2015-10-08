@@ -4,7 +4,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+{% if page.desc %}
+  <meta name="description" content="{{ page.desc }}" />
+{% else %}
+  <meta name="description" content="Hi, I’m Marco Ferraioli A.K.A. ParanoiaSystem and this is my site & blog." />
+{% endif %}
+
+{% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}" />
+% else %}
+  <meta name="keywords" content="Marco, Ferraioli, ParanoiaSystem, OverflowSystem, developer, PHP, Linux, UNISA, Università, Salerno, Microsoft, Student, Partner, MSP, Angri, Italia, GIT, Python, Patterns, GitHub" />
+{% endif %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
