@@ -33,7 +33,7 @@ keywords: "Marco, Ferraioli, TSW, PHP, TPA, UNISA, Università, Salerno, PD, Blu
 	Sul sito non è presente pubblicità invasiva.
 </div>
 <script type="text/javascript">var adblock = true;</script>
-<script type="text/javascript" src="{{ "/js/adframe.js" | prepend: site.baseurl }}></script>
+<script type="text/javascript" src="{{ "/js/adframe.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript">
 	document.getElementById('adenable').style.display='none';
 	if(adblock) {
