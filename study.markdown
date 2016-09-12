@@ -28,6 +28,7 @@ keywords: "Marco, Ferraioli, TSW, PHP, TPA, UNISA, Università, Salerno, PD, Blu
 	+	Vari script: [GitHub](https://github.com/paranoiasystem/TPA)
 	+	Patterns: [GitHub](https://github.com/paranoiasystem/Patterns) oppure [GitBooks](https://paranoiasystem.gitbooks.io/patterns//)
 </div>
+<br>
 <div id="adenable">
 	Per favore disabilita AdBlock, mi aiuterai a mantenere attivo il servizio.
 	Sul sito non è presente pubblicità invasiva.
