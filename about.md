@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Hi, I'm Marco Ferraioli A.K.A. ParanoiaSystem.
-I'm 22 years old. I live in Salerno (Italy).
+I'm 23 years old. I live in Salerno (Italy).
 
 I'm a student at UNISA (University of Salerno) and study computer science.
 
