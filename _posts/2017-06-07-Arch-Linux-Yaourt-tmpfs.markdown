@@ -20,10 +20,8 @@ Il problema di cui vi voglio parlare si può presentare mentre installate un pac
 Nel primo caso, ovvero durante l'installazione di un pachetto tramite yaourt che restituisce un bel: _"out of space"_.
 Una soluzione potrebbe essere la seguente:
 
-`
-mkdir ~/.newtmp
-export TMPDIR="/home/$USER/.newtmp"
-`
+`mkdir ~/.newtmp`
+`export TMPDIR="/home/$USER/.newtmp"`
 
 questo spostera temporaneamente per la sessione della shell corrente nella home la vostra directory _"/tmp"_, ricordatevi di cancellare la cartella per rimuovere i file temporanei altrimenti resteranno lì.
 
