@@ -29,10 +29,10 @@ questo spostera temporaneamente per la sessione della shell corrente nella home 
 
 Il secondo metodo funziona anche all'esterno della sessione shell in cui lanciate il comando, quindi si presta bene nel caso in cui un software che necessita di creare grossi file temporanei vi dice che non c'è più spazio.
 
-(Io ho usato questa solouzione per installare tutti gli SDK Android che necessitavo, sono davvero un sacco di GB :| )
+(Io ho usato questa soluzione per installare i vari SDK Android di cui necessito, sono davvero un sacco di GB)
 
 Comunque il comando è il seguente:
 
 `mount -o remount,size=10G,noatime /tmp`
 
-una volta lanciato questo comando la nostra cartella _"/tmp"_ passerà dalla metà della ram a 10GB, ricordate che la dimensione risulterà cambiata fino al prossimo boot.
+una volta lanciato questo comando la nostra cartella _"/tmp"_ passerà dalla metà della ram a 10GB, ricordate che la dimensione risulterà cambiata solo fino al prossimo boot.
