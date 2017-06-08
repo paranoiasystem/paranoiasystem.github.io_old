@@ -16,6 +16,22 @@
     </div>
 
     {% include footer.html %}
+    
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+    <!-- Cookie Consent by http://PrivacyPolicies.com -->
+    <script type="text/javascript" src="//privacypolicies.com/cookie-consent/releases/latest/cookie-consent.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        var cookieconsent = $.cookieconsent({
+          edit_settings_element: $('#edit-cookieconsent-settings'),
+          jqueryui_theme_css: 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/cupertino/jquery-ui.css',
+          cookie_policy_url: 'http://marcoferraioli.com/privacy/'
+        });
+      });
+    </script>
+    <noscript><a href="http://privacypolicies.com">Powered by PrivacyPolicies.com</a></noscript>
+    <!-- End Cookie Consent -->
 
   </body>
 
