@@ -51,5 +51,38 @@
     </div>
 
   </div>
+  
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<!-- Cookie Consent by http://PrivacyPolicies.com -->
+<script type="text/javascript" src="//privacypolicies.com/cookie-consent/releases/latest/cookie-consent.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var cookieconsent = $.cookieconsent({
+			default_level_id: 'tracking',
+			edit_settings_element: $('#edit-cookieconsent-settings'),
+			jqueryui_theme_css: 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/cupertino/jquery-ui.css',
+			cookie_policy_url: 'http://marcoferraioli.com/privacy/',
+			levels:[
+				{
+					id: 'tracking',
+					title: 'Tracking',
+					permissions: ['Log user access'],
+					callback: function(){ 
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59983522-1', 'auto');
+  ga('send', 'pageview');
+          }
+				}
+			]
+		});
+	});
+</script>
+<noscript><a href="http://privacypolicies.com">Powered by PrivacyPolicies.com</a></noscript>
+<!-- End Cookie Consent -->
 
 </footer>
