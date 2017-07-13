@@ -19,6 +19,19 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 	height : 300
 });
 
+function cipher(text, shift) {
+	
+	var result = "";
+
+	for (var i = 0; i < text.length; i++){
+		var c = text[i].charCodeAt(0);
+    		var e = c + shift;
+    		result += String.fromCharCode(e);
+	}
+	console.log('-> ' + result);
+	return result;
+}
+
 function makeCode () {		
 	var elText = document.getElementById("text");
 	
@@ -27,8 +40,8 @@ function makeCode () {
 		elText.focus();
 		return;
 	}
-	
-	qrcode.makeCode(Base64.encode(elText.value));
+
+	qrcode.makeCode(cipher(Base64.encode(cipher(elText.value, 9)), 3));
 }
 
 makeCode();
