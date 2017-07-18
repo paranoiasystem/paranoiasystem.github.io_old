@@ -41,7 +41,7 @@ function makeCode () {
 		return;
 	}
 
-	qrcode.makeCode(cipher(Base64.encode(cipher(elText.value, 9)), 3));
+	qrcode.makeCode(cipher(Base64.encode(cipher(elText.value, 3)), 3));
 }
 
 makeCode();
