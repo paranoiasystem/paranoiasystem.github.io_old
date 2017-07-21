@@ -25,7 +25,11 @@ function cipher(text, shift) {
 
 	for (var i = 0; i < text.length; i++){
 		var c = text[i].charCodeAt(0);
-    		var e = c + shift;
+		var e;
+		if((c + shift) >= 126)
+			e = 33 + shift;
+		else
+			e = c + shift;
     		result += String.fromCharCode(e);
 	}
 	console.log('-> ' + result);
