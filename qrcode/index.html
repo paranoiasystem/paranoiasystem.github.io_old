@@ -26,13 +26,27 @@ function cipher(text, shift) {
 	for (var i = 0; i < text.length; i++){
 		var c = text[i].charCodeAt(0);
 		var e;
-		if((c + shift) >= 126)
-			e = 33 + shift;
+		if((c + shift) > 126)
+			e = 33 + c - 126 + shift;
 		else
 			e = c + shift;
     		result += String.fromCharCode(e);
 	}
-	console.log('-> ' + result);
+	return result;
+}
+
+function decipher(text, shift) {
+	var result = "";
+
+	for (var i = 0; i < text.length; i++){
+		var c = text[i].charCodeAt(0);
+		var e;
+		if((c + (shift * -1)) < 33)
+			e = 126 + c - 33 + (shift * -1);
+		else
+			e = c + (shift * -1);
+    		result += String.fromCharCode(e);
+	}
 	return result;
 }
 
@@ -44,8 +58,15 @@ function makeCode () {
 		elText.focus();
 		return;
 	}
-
-	qrcode.makeCode(cipher(Base64.encode(cipher(elText.value, 9)), 3));
+	var cif = cipher(Base64.encode(cipher(elText.value, 9)), 3);
+	console.log('cifrato: ' + cif)
+	var deci1 = decipher(cif, 3);
+	console.log('primo: ' + deci1);
+	var deci2 =Base64.decode(deci1);
+	console.log('secondo: ' + deci2);
+	var deci3 =decipher(deci2, 9);
+	console.log('terzo: ' + deci3);
+	qrcode.makeCode(cif);
 }
 
 makeCode();
