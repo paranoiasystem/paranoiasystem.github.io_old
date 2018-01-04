@@ -4,7 +4,7 @@ email: marcoferraioli@live.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi, I'm Marco Ferraioli A.K.A. ParanoiaSystem and this is my site and blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://marcoferraioli.com" # the base hostname & protocol for your site
+url: "https://paranoiasystem.github.io" # the base hostname & protocol for your site
 twitter_username: overflowsystem
 github_username:  paranoiasystem
 
