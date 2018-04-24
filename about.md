@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 Hi, I'm Marco Ferraioli A.K.A. ParanoiaSystem.

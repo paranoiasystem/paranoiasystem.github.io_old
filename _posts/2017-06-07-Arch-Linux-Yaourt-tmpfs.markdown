@@ -1,9 +1,15 @@
 ---
+title: Arch Linux yaourt e lo spazio finito su disco
+date: 2017-06-07 21:44:32 Z
+categories:
+- how-to
+- linux
+- arch linux
+- tmp
+- yaourt
 layout: post
-title:  "Arch Linux yaourt e lo spazio finito su disco"
-date:   2017-06-07 21:44:32
-categories: [how-to, linux, arch linux, tmp, yaourt]
 ---
+
 È da tanto non scrivo, anzi a dire la verità non ho quasi scritto su questo mio blog. 
 
 Ultimamente mi è passata per la testa l'idea di riprenderlo e iniziare ad essere leggermente costante nel pubblicare post.

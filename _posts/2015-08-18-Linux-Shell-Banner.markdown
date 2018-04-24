@@ -1,9 +1,13 @@
 ---
+title: Linux shell banner - [How To]
+date: 2015-08-18 09:53:54 Z
+categories:
+- how-to
+- linux
+- shell
 layout: post
-title:  "Linux shell banner - [How To]"
-date:   2015-08-18 09:53:54
-categories: [how-to, linux, shell]
 ---
+
 Hi, today I show you how to make a shell banner for your linux distro.
 
 The shell banner we go to create are like this 

@@ -1,9 +1,12 @@
 ---
+title: Welcome!
+date: 2015-08-17 17:24:03 Z
+categories:
+- blog
+- life
 layout: post
-title:  "Welcome!"
-date:   2015-08-17 17:24:03
-categories: [blog, life]
 ---
+
 Hi, I'm Marco Ferraioli A.K.A. ParanoiaSystem and this is my site & blog.
 
 In this blog I will share my experiences, my projects and my knowledge.

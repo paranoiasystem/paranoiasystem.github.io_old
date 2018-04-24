@@ -1,14 +1,21 @@
-# Site settings
+---
 title: Marco Ferraioli (ParanoiaSystem)
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: marcoferraioli@live.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hi, I'm Marco Ferraioli A.K.A. ParanoiaSystem and this is my site and blog.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://paranoiasystem.github.io" # the base hostname & protocol for your site
+description: 'Hi, I''m Marco Ferraioli A.K.A. ParanoiaSystem and this is my site and
+  blog.
+
+'
+baseurl: ''
+url: https://paranoiasystem.github.io
 twitter_username: overflowsystem
-github_username:  paranoiasystem
-
+github_username: paranoiasystem
 comments: true
-
-# Build settings
 markdown: kramdown
